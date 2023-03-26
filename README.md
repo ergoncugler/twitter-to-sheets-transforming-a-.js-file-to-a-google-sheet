@@ -1,7 +1,7 @@
 # Twitter to Sheets: Transforming a .js File to a Google Sheets
 Transform your .js File from Twitter to a Google Sheets | [Tweets] [Twitter] [Account] [JS] [JavaScript] [Json]
 
-This code **<a href="https://github.com/ergoncugler/twitter-to-sheets-transforming-a-.js-file-to-a-google-sheet/blob/main/js-to-gsheets.py">[code here]</a>** allows you to export data from a Twitter .js file you downloaded to a Google Sheets spreadsheet. The code uses several libraries, including Pandas, shutil, json, and gspread. The code authenticates the user with Google and uses Google's gspread library to authorize and access the worksheet. In summary, this code is a useful tool for anyone who needs to export data from a Twitter .js file to a Google Sheets spreadsheet quickly and easily. With just a few lines of code, you can automate this process and save time and effort.
+This code **<a href="https://github.com/ergoncugler/twitter-to-sheets-transforming-a-.js-file-to-a-google-sheets/blob/main/js-to-gsheets.py">[code here]</a>** allows you to export data from a Twitter .js file you downloaded to a Google Sheets spreadsheet. The code uses several libraries, including Pandas, shutil, json, and gspread. The code authenticates the user with Google and uses Google's gspread library to authorize and access the worksheet. In summary, this code is a useful tool for anyone who needs to export data from a Twitter .js file to a Google Sheets spreadsheet quickly and easily. With just a few lines of code, you can automate this process and save time and effort.
 
 ## Run it
 
@@ -42,4 +42,4 @@ Ergon Cugler de Moraes Silva, from Brazil, mailto: <a href="contato@ergoncugler.
 
 ### How to Cite it:
 
-**SILVA, Ergon Cugler de Moraes. Twitter to Sheets: Transforming a .js File to a Google Sheets. (mar) 2023. Avaliable at: <a>https://github.com/ergoncugler/twitter-to-sheets-transforming-a-.js-file-to-a-google-sheet/<a>.**
+**SILVA, Ergon Cugler de Moraes. Twitter to Sheets: Transforming a .js File to a Google Sheets. (mar) 2023. Avaliable at: <a>https://github.com/ergoncugler/twitter-to-sheets-transforming-a-.js-file-to-a-google-sheets/<a>.**
