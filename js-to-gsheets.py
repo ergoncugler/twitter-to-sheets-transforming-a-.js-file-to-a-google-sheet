@@ -14,7 +14,7 @@ from google.auth import default
 creds, _ = default()
 gc = gspread.authorize(creds)
 
-def export_to_google_sheet(worksheet_name = 'twitter file to sheets', file_name = 'tweets.js'):
+def export_to_google_sheets(worksheet_name = 'twitter file to sheets', file_name = 'tweets.js'):
 
     # try to open the worksheet in your google drive
     try:
@@ -26,22 +26,22 @@ def export_to_google_sheet(worksheet_name = 'twitter file to sheets', file_name 
     worksheet.clear()
 
     # replace .js to .txt
-    file_name = file_name.replace('/content/', '').replace('.js', '')
-    shutil.copy(f'/content/{file_name}.js', f'/content/{file_name}.txt')
+    file_name = file_name.replace('.js', '')
+    shutil.copy(f'{file_name}.js', f'{file_name}.txt')
 
     # replace first line
-    with open(f'/content/{file_name}.txt', 'r') as f:
+    with open(f'{file_name}.txt', 'r') as f:
         content = f.read()
         content = content.replace('window.YTD.tweets.part0 = ', '')
-    with open(f'/content/{file_name}.txt', 'w') as f:
+    with open(f'{file_name}.txt', 'w') as f:
         f.write(content)
     time.sleep(1)
 
     # replace .txt to .json
-    os.rename(f'/content/{file_name}.txt', f'/content/{file_name}.json')
+    os.rename(f'{file_name}.txt', f'{file_name}.json')
 
     # set column titles
-    with open(f'/content/{file_name}.json', 'r') as f:
+    with open(f'{file_name}.json', 'r') as f:
         dados_json = json.load(f)
 
     df = pd.json_normalize(dados_json)
