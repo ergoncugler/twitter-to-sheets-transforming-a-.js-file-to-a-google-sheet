@@ -9,7 +9,7 @@ You just need to Upload your '.js' File, set the location and name "file_name" a
 
 ```python
 # .js file from Twitter to a Google Sheets
-export_to_google_sheet(
+export_to_google_sheets(
     worksheet_name = 'twitter file to sheets',    # write and it will be created in your Drive
     file_name = 'tweets.js')                      # write your file's name (you must upload it)
 ```
