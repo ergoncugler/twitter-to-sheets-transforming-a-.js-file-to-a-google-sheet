@@ -26,11 +26,11 @@ However, this code aims to provide a quick and practical solution for converting
 
 ![image](https://user-images.githubusercontent.com/81989837/227797638-2f8452ee-40a1-4fc2-85c2-1efac013654a.png)
 
-
-
 ___
 
 ## More About:
+
+### [Data] [Academic Research] [Scientific Research] [Public Policy] [Political Science] [Data Science]
 
 Its use is highly encouraged and recommended for academic and scientific research, content analysis, sentiment and speech. It is free and open, and academic use is encouraged. Its responsible use is the sole responsibility of those who adapt and manipulate the data.
 
